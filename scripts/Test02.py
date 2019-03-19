@@ -18,3 +18,4 @@ class Test02:
     @pytest.allure.severity(pytest.allure.severity_level.MINOR)
     def test002(self):
         print("我被更新")
+        print("123444")
