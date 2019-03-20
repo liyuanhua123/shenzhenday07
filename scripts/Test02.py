@@ -12,7 +12,7 @@ class Test02:
     @allure.step("01yi")
     @allure.severity("critical")
     def test001(self):
-      print("我是被执行")
+      print("我是被执行dd")
 
     allure.attach("02bu","")
     @pytest.allure.severity(pytest.allure.severity_level.MINOR)
